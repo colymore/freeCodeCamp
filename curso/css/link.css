@@ -1,0 +1,15 @@
+<style>
+  h2 {
+    font-family: lobster;
+  }
+
+  p {
+    font-size: 16px;
+   font-family: FAMILY_NAME, GENERIC_NAME;
+   font-family: monospace;
+  }
+</style>
+
+<h2 font-family= "lobster"; class="red-text">CatPhotoApp</h2>
+<main>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
