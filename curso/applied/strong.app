@@ -1,2 +1,1 @@
-  <p>Google was founded by Larry Page and Sergey Brin while they were Ph.D. students at <strong>Stanford University</strong>.</p>
-    
+ <p>Google was founded by Larry Page and Sergey Brin while they were<u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>
