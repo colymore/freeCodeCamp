@@ -1,0 +1,6 @@
+.links {
+    text-align: left;
+    color: black;
+     opacity: 0.7;
+
+  }
