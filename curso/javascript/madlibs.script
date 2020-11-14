@@ -1,0 +1,7 @@
+// Only change code below this line
+var myName="fernanda"
+var myStr= "my name is"+myName+"and i am well!"
+
+var someAdjective="teste";
+var myStr = "Learning to code is ";
+ myStr += someAdjective;
