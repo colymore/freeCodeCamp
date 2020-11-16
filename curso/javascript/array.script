@@ -16,3 +16,19 @@ var myArray = [["passarinho", 6],["escola", 6]];
 
 
 Isso também é chamado de array multidimensional.
+
+
+
+Podemos acessar os dados dentro de arrays usando índices.
+
+Os índices de array são escritos na mesma notação de colchetes que as strings usam, exceto que, em vez de especificar um caractere, eles especificam uma entrada na array.
+
+
+
+
+
+
+// Setup
+var myArray = [50,60,70];
+var myData= myArray[0];
+// Only change code below this line
