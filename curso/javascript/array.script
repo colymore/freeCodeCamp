@@ -4,3 +4,15 @@ var myArray = ["amor", 4];
 
 
 para armazenar varios dados em um só lugar.
+
+
+Você também pode aninhar matrizes dentro de outras matrizes, como a seguir:
+
+
+
+// Only change code below this line
+var myArray = [["passarinho", 6],["escola", 6]];
+
+
+
+Isso também é chamado de array multidimensional.
