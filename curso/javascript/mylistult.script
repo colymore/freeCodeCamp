@@ -1,0 +1,7 @@
+
+
+O primeiro elemento em cada submatriz deve conter uma string com o nome do item. O segundo elemento deve ser um número que representa a quantidade, ou seja,
+
+
+
+var myList = [["fernanda",16],["sayuri", 1],["hanashiro",4],["mochi", 6],["manju", 3]];
