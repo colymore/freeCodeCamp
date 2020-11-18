@@ -1,0 +1,8 @@
+Parâmetros são variáveis que agem como marcadores para os valores que devem ser inseridos em uma função quando ela é chamada. Quando uma função é definida, ela normalmente é definida junto com um ou mais parâmetros. Os valores reais que são inseridos (ou "passados") em uma função quando ela é chamada são conhecidos como argumentos.
+
+function functionWithArgs(primeiro, segundo){
+    console.log(primeiro + segundo);
+
+}
+
+functionWithArgs(3, 16);
