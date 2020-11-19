@@ -1,0 +1,6 @@
+function timesFive(num){
+   return num * 5;
+  
+}
+
+Podemos passar valores para uma função com argumentos. Você pode usar uma instrução de retorno para enviar um valor de volta de uma função.

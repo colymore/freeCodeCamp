@@ -1,0 +1,22 @@
+// Setup
+var sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+
+function addFive(){
+sum +=5;
+}
+// Only change code above this line
+
+addThree();
+addFive();
+
+
+
+
+
+Uma função pode incluir a instrução de retorno, mas não é obrigatório. No caso de a função não ter um comando return, quando você a chama, a função processa o código interno, mas o valor retornado é indefinido.
