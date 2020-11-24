@@ -1,0 +1,13 @@
+function welcomeToBooleans() {
+
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
+
+
+
+
+Outro tipo de dados é o Booleano. Os booleanos podem ter apenas um de dois valores: verdadeiro ou falso. Eles são basicamente pequenos interruptores liga-desliga, onde true é "on" e false é "off". Esses dois estados são mutuamente exclusivos.
