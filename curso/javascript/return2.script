@@ -19,4 +19,4 @@ addFive();
 
 
 
-Uma função pode incluir a instrução de retorno, mas não é obrigatório. No caso de a função não ter um comando return, quando você a chama, a função processa o código interno, mas o valor retornado é indefinido.
+pode incluir a instrução de retorno, mas não é obrigatório. No caso de a função não ter um comando return, quando você a chama, a função processa o código interno, mas o valoUma função pr retornado é indefinido.
