@@ -1,0 +1,15 @@
+// Setup
+function testStrict(val) {
+  if (val===7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
+
+
+
+Igualdade estrita (===) é a contraparte do operador de igualdade (==). No entanto, ao contrário do operador de igualdade, que tenta converter ambos os valores comparados a um tipo comum, o operador de igualdade estrita não executa uma conversão de tipo.
+
+Se os valores comparados tiverem tipos diferentes, eles serão considerados desiguais e o operador de igualdade estrita retornará falso.

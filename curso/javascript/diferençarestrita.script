@@ -1,0 +1,11 @@
+O operador de desigualdade estrita (! ==) é o oposto lógico do operador de igualdade estrita. Significa "Estritamente diferente" e retorna falso, onde a igualdade estrita retornaria verdadeiro e vice-versa. A desigualdade estrita não converterá os tipos de dados.
+
+// Setup
+function testStrictNotEqual(val) {
+  if (val!==17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testStrictNotEqual(10);

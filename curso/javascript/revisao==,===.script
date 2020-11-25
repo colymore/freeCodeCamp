@@ -1,0 +1,13 @@
+Nos últimos dois desafios, aprendemos sobre o operador de igualdade (==) e o operador de igualdade estrita (===). Vamos fazer uma revisão rápida e praticar o uso desses operadores um pouco mais.
+
+Se os valores comparados não forem do mesmo tipo, o operador de igualdade executará uma conversão de tipo e, em seguida, avaliará os valores. No entanto, o operador de igualdade estrita comparará o tipo de dados e o valor no estado em que se encontram, sem converter um tipo no outro.
+
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Not Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");

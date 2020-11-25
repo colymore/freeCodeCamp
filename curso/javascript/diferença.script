@@ -1,0 +1,12 @@
+O operador de desigualdade (! =) É o oposto do operador de igualdade. Significa "Diferente" e retorna falso, onde a igualdade retornaria verdadeiro e vice-versa. Como o operador de igualdade, o operador de desigualdade converterá tipos de dados de valores durante a comparação.
+
+
+// Setup
+function testNotEqual(val) {
+  if (val!=99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
