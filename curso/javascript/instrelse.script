@@ -1,0 +1,19 @@
+function testElse(val) {
+  var result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+}else {
+    result = "5 or Smaller";
+}
+
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
+
+
+
+Quando uma condição para uma instrução if é verdadeira, o bloco de código seguinte é executado.E quando essa condição for falsa?Normalmente nada aconteceria.Com uma instrução else, um bloco alternativo de código pode ser executado.

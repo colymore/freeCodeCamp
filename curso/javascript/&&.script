@@ -1,0 +1,15 @@
+Às vezes, você precisará testar mais de uma coisa por vez. O operador lógico e (&&) retorna verdadeiro se e somente se os operandos à esquerda e à direita dele forem verdadeiros
+
+
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val<=50 && val>= 25) {
+      return "Yes";
+  }
+
+  // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(10);
