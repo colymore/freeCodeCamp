@@ -1,0 +1,19 @@
+function testLessThan(val) {
+  if (val<25) {  // Change this line
+    return "Under 25";
+  }
+
+  if (val<55) {  // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+testLessThan(10);
+
+
+
+256 / 5000
+Resultados de tradução
+O operador menor que (<) compara os valores de dois números. Se o número à esquerda for menor que o número à direita, ele retorna verdadeiro. Caso contrário, ele retorna falso. Como o operador de igualdade, o operador menor que converte os tipos de dados durante a comparação.
