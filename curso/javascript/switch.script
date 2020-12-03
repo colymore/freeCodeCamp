@@ -1,0 +1,131 @@
+Se você tiver muitas opções para escolher, use uma instrução switch. Uma instrução switch testa um valor e pode ter muitas instruções case que definem vários valores possíveis. As instruções são executadas a partir do primeiro valor de caso correspondente até que uma quebra seja encontrada.
+
+
+
+function caseInSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+  switch(val){
+    case 1:
+  answer= "alpha";
+  break;
+  case 2:
+  answer= "beta";
+  break;
+  case 3:
+  answer= "gamma";
+  break;
+  case 4:
+  answer= "delta";
+  break;
+
+
+
+  } 
+
+
+
+
+
+  // Only change code above this line
+  return answer;
+}
+
+caseInSwitch(1);
+
+
+Em uma instrução switch, você pode não ser capaz de especificar todos os valores possíveis como instruções case. Em vez disso, você pode adicionar a instrução padrão que será executada se nenhuma instrução case correspondente for encontrada. Pense nisso como a instrução else final em uma cadeia if / else.
+
+
+function switchOfStuff(val) {
+  var answer = "";
+  // Only change code below this line
+switch(val){
+  case "a":
+  answer = "apple";
+  break;
+  case "b":
+  answer = "bird";
+  break;
+  case "c":
+  answer = "cat";
+  break;
+  default:
+  answer = "stuff";
+  break;
+}
+
+
+
+  // Only change code above this line
+  return answer;
+}
+
+console.log(switchOfStuff(1));
+
+
+
+
+Se a instrução break for omitida do caso de uma instrução switch, a (s) instrução (ões) case (s) a seguir serão executadas até que uma quebra seja encontrada. Se você tiver várias entradas com a mesma saída, poderá representá-las em uma instrução switch como esta:
+
+function sequentialSizes(val) {
+  var answer = "";
+  // Only change code below this line
+var result="";
+switch(val){
+  case 1:
+  case 2:
+  case 3:
+  answer="Low";
+  break;
+  case 4:
+  case 5:
+  case 6:
+  answer="Mid";
+  break;
+  case 7:
+  case 8:
+  case 9:
+  answer="High";
+  break;
+}
+  // Only change code above this line
+  return answer;
+}
+
+console.log(sequentialSizes(1));
+
+
+
+
+
+
+Se você tiver muitas opções para escolher, uma instrução switch pode ser mais fácil de escrever do que muitas instruções if / else if encadeadas. Os seguintes:
+
+function chainToSwitch(val) {
+  var answer = "";
+  // Only change code below this line
+
+  switch(val){
+   case "bob":
+     answer = "Marley";
+     break;
+   case 42:
+     answer = "The Answer";
+     break;
+   case 1:
+     answer = "There is no #1";
+     break;
+   case 99:
+     answer = "Missed me by this much!";
+     break;
+   case 7:
+     answer = "Ate Nine";
+     break;
+  }
+  // Only change code above this line
+  return answer;
+  }
+
+
+console.log(chainToSwitch(7));
