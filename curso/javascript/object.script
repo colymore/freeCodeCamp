@@ -1,0 +1,20 @@
+Você pode ter ouvido o termo objeto antes.
+
+
+
+Os objetos são semelhantes a arrays, exceto que, em vez de usar índices para acessar e modificar seus dados, você acessa os dados em objetos por meio do que são chamadas de propriedades.
+
+
+
+Os objetos são úteis para armazenar dados de forma estruturada e podem representar objetos do mundo real, como um gato.
+
+
+var myDog = {
+// Only change code below this line
+ "name" : "kim",
+ "legs" :4,
+ "tails" : 6,
+ "friends": [],
+
+// Only change code above this line
+}

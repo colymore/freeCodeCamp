@@ -1,0 +1,13 @@
+Você deve se lembrar de Comparison with the Equality Operator que todos os operadores de comparação retornam um valor booleano verdadeiro ou falso
+
+
+
+function isLess(a, b) {
+  // Only change code below this line
+  return (a < b) 
+    return true;
+   return false;
+  // Only change code above this line
+}
+
+console.log(isLess(10, 15));
