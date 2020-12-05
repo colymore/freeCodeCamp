@@ -1,0 +1,55 @@
+Existem duas maneiras de acessar as propriedades de um objeto: notação de ponto (.) E notação de colchetes ([]), semelhante a uma matriz.
+
+
+
+A notação de pontos é o que você usa quando sabe o nome da propriedade que está tentando acessar com antecedência.
+
+
+
+Aqui está um exemplo de como usar a notação de ponto (.) Para ler a propriedade de um objeto:
+
+
+
+
+// Setup
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+if (testObj)
+var hatValue = testObj.hat;      // Change this line
+var shirtValue =testObj.shirt;    // Change this line
+
+
+
+
+
+
+A segunda maneira de acessar as propriedades de um objeto é a notação de colchetes ([]). Se a propriedade do objeto que você está tentando acessar tiver um espaço em seu nome, você precisará usar a notação de colchetes.
+
+
+
+No entanto, você ainda pode usar a notação de colchetes nas propriedades do objeto sem espaços.
+
+
+
+Aqui está um exemplo de como usar a notação de colchetes para ler a propriedade de um objeto:
+
+
+
+
+
+// Setup
+var testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+
+var entreeValue = testObj["an entree"];   // Change this line
+var drinkValue = testObj["the drink"];    // Change this line
