@@ -53,3 +53,68 @@ var testObj = {
 
 var entreeValue = testObj["an entree"];   // Change this line
 var drinkValue = testObj["the drink"];    // Change this line
+
+
+
+
+
+
+Outro uso da notação de colchetes em objetos é acessar uma propriedade que é armazenada como o valor de uma variável. Isso pode ser muito útil para iterar por meio das propriedades de um objeto ou ao acessar uma tabela de pesquisa.
+
+
+
+// Setup
+var testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+
+var playerNumber=16;       // Change this line
+var player = testObj[playerNumber];   // Change this line
+
+
+
+
+
+
+Depois de criar um objeto JavaScript, você pode atualizar suas propriedades a qualquer momento, da mesma forma que atualizaria qualquer outra variável. Você pode usar a notação de ponto ou colchete para atualizar.
+
+
+
+Por exemplo, vamos dar uma olhada em nosso cachorro
+
+
+
+// Setup
+var myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+myDog.name=["Happy Coder"]
+
+
+
+
+Também podemos excluir propriedades de objetos como este:
+
+
+
+
+// Setup
+var myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+delete myDog.tails
