@@ -1,0 +1,26 @@
+Às vezes, você pode querer armazenar dados em uma estrutura de dados flexível. Um objeto JavaScript é uma maneira de lidar com dados flexíveis. Eles permitem combinações arbitrárias de strings, números, booleanos, arrays, funções e objetos.
+
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+   "artist":"blackpink",
+   "title": "How you like that",
+   "release_year": 2020,
+   "formats":[
+     "youtube video",
+     "spotify"
+     
+   ]
+  }
+];
+ 
