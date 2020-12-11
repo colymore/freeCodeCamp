@@ -1,0 +1,5 @@
+Você recebe um objeto JSON que representa uma parte de sua coleção de álbuns musicais. Cada álbum possui um número de identificação exclusivo como sua chave e várias outras propriedades. Nem todos os álbuns possuem informações completas.
+
+
+
+Você começa com uma função updateRecords que pega um objeto como uma coleção, um id, um prop (como um artista ou faixas) e um valor.
