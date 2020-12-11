@@ -1,0 +1,30 @@
+JavaScript básico: acessando matrizes aninhadas
+
+
+
+Como vimos em exemplos anteriores, os objetos podem conter objetos aninhados e matrizes aninhadas. Semelhante ao acesso a objetos aninhados, a notação de colchetes Array pode ser encadeada para acessar arrays aninhados.
+
+// Setup
+var myPlants = [
+  {
+    type: "flowers",
+    list: [
+      "rose",
+      "tulip",
+      "dandelion"
+    ]
+  },
+  {
+    type: "trees",
+    list: [
+      "fir",
+      "pine",
+      "birch"
+    ]
+  }
+];
+
+// Only change code below this line
+
+var secondTree = myPlants[1].list[1]; // Change this line
+console.log(secondTree)
