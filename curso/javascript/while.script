@@ -1,0 +1,14 @@
+// Setup
+var myArray = [5,4,3,2,1,0];
+
+// Only change code below this line
+var f=0;
+while (f<0){
+    myArray.push(f);
+    f++
+}
+console.log(myArray);Você pode executar o mesmo código várias vezes usando um loop.
+
+
+
+O primeiro tipo de loop que aprenderemos é chamado de loop while porque é executado "enquanto" uma condição especificada é verdadeira e para quando essa condição não é mais verdadeira.

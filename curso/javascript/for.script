@@ -1,0 +1,71 @@
+// Setup
+var myArray = [];
+
+// Only change code below this line
+
+for(var i=1;i<6; i++){
+    myArray.push(i);
+}
+console.log(myArray);
+
+
+Você pode executar o mesmo código várias vezes usando um loop.
+
+
+
+O tipo mais comum de loop JavaScript é chamado de loop for porque é executado "for" um número específico de vezes.
+
+
+
+Os loops For são declarados com três expressões opcionais separadas por ponto e vírgula:
+
+
+
+
+
+
+Os loops For não precisam iterar um de cada vez. Mudando nossa expressão final, podemos contar por números pares.
+
+
+
+Começaremos em i = 0 e fazer um loop enquanto i <10. Incrementaremos i em 2 cada loop com i + = 2.
+
+
+
+
+// Setup
+var myArray = [];
+
+// Only change code below this line
+for(var i= 1;i<10;i+=2){
+    myArray.push(i);
+
+}
+console.log(myArray);
+
+
+
+
+
+
+
+
+
+
+
+
+Um loop for também pode contar para trás, desde que possamos definir as condições corretas.
+
+
+
+Para fazer uma contagem regressiva de dois, precisaremos alterar nossa inicialização, condição e expressão final.
+
+
+// Setup
+var myArray = [];
+
+// Only change code below this line
+for(var i =9;i>0;i-=2){
+    myArray.push(i);
+}
+console.log(myArray);
